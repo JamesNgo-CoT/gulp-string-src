@@ -1,0 +1,25 @@
+{
+  "name": "gulp-string-src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesNgo-CoT/gulp-string-src.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamesNgo-CoT/gulp-string-src/issues"
+  },
+  "homepage": "https://github.com/JamesNgo-CoT/gulp-string-src#readme",
+  "devDependencies": {
+    "del": "^6.0.0",
+    "eslint": "^8.3.0",
+    "gulp": "^4.0.2"
+  }
+}
