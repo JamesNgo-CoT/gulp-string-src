@@ -12,6 +12,10 @@ const Vinyl = require('vinyl');
 module.exports = function (filename, value = '') {
   const src = stream.Readable({ objectMode: true });
 
+	if (value && typeof value === 'object') {
+		value = JSON.stringify(value);
+	}
+
   src._read = function () {
     this.push(new Vinyl({
       path: filename,
