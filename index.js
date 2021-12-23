@@ -12,7 +12,7 @@ const Vinyl = require('vinyl');
 module.exports = function (filename, value = '') {
   const src = stream.Readable({ objectMode: true });
 
-	if (value && typeof value === 'object') {
+	if (typeof value !== 'string') {
 		value = JSON.stringify(value);
 	}
 
