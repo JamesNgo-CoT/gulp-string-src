@@ -1,11 +1,11 @@
 # gulp-string-src
 
-Version 1.1.0
+Version 1.2.0
 
 ## Installation
 
 ``` console
-npm install https://github.com/JamesNgo-CoT/gulp-string-src.git#1.1.0
+npm install https://github.com/JamesNgo-CoT/gulp-string-src.git#1.2.0
 ```
 
 ## Credit
